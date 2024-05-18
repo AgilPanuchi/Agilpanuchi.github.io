@@ -38,8 +38,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function handleSubmit() {
     const userName = userNameInput.value.trim();
-    const lettersOnlyRegex = /^[A-Za-z]+$/;
-    if (userName && lettersOnlyRegex.test(userName)) {
+    const lettersAndSpacesRegex = /^[A-Za-z\s]+$/;
+    if (userName && lettersAndSpacesRegex.test(userName)) {
       myModal.hide();
       userNameDisplay.textContent = userName;
       alert(`Selamat datang, ${userName}!`);
