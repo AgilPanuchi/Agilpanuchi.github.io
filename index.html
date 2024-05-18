@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agil Panuchi || Portofolio </title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+    <!-- Boostrap Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- font google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Css Saya -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body id="home">
+   
+    
+    <!-- Awal Navbar -->
+    <header>
+    <nav id="navbar" class="navbar navbar-expand-md fixed-top bg-ungu text-uppercase myNavbar" data-bs-theme="dark">
+      <div class="container-xl">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand  d-sm-block d-none p-0 me-0 me-md-2">
+          <img src="img/logoa.jpg" alt="logo agil" width="30" class="rounded-circle logo" /> </a>
+        <a class="navbar-brand"> Agil Panuchi </a>
+
+        <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="false" data-bs-scroll="true">
+          <div class="offcanvas-header px-4 pb-0">
+            <h5 id="offcanvasNavbarLabel" class="offcanvas-title">Agil Panuchi</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body ">
+            <hr class="d-md-none text-white-50">
+            <div class="navbar-nav ms-auto text-center">
+              <a class="nav-link" href="#home">Beranda</a>
+              <a class="nav-link" href="#TentangSaya">Tentang Saya</a>
+              <a class="nav-link" href="#portofolio">Portofolio</a>
+              <a class="nav-link" href="#kontak">Kontak Saya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav> 
+    </header>
+    <!-- Akhir Navbar-->
+
+    
+      
+    <main>
+      <!-- awal Modal-->
+      <section class="modal" tabindex="-1" id="namaAnda">
+        <div class="modal-dialog ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">SELAMAT DATANG</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+            </div>
+            <div class="modal-body">
+              <p>Masukkan Nama Anda :</p>
+              <input type="text" id="userName" class="form-control" placeholder="Nama Anda" required>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-ungu" id="simpanNama">Simpan</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- akhir modal-->
+
+
+
+
+    <!-- Awal Beranda -->
+    <section id="Beranda">
+      <div class="jumbotron text-center mt-5 mb-5">
+        <div class="container-fluid">
+          <div class="row justify-content-around">
+            <div class="col-md-4 order-md-2">
+              <figure class="figure">
+              <img src="img/Agil(1).png" alt="Foto Agil Panuchi" width="270" height="270" class="rounded shadow rounded-circle mx-auto d-flex img-fluid mt-sm-5 gambar-ungu">
+              <figcaption class="figure-caption mt-2"> - Pengembang Desktop & Web - </figcaption>
+              </figure>
+            </div>
+            <div class="col-md-8 order-md-1 ps-sm-5">
+              <h1 class="display-5 text-start pt-5  mt-4 text-uppercase">Hallo! <span id="user-name"> </span><br> <span class="ps-lg-5"> Saya, </span> <span class="text-ungu">Agil Panuchi </span></h1>
+              <figcaption class="blockquote-footer text-start pt-5 pb-3">
+                Seorang pengembang Dekstop & Web dengan keahlian dalam <strong class="fs-5"> HTML, CSS, JavaScript, PHP, dan Java</strong>. Saya telah berhasil membuat aplikasi <q class="fs-5"> <cite> Presensi Karyawan </cite></q> menggunakan <q> <cite class="fs-5"> MySQL & Java</cite> </q> dan mengembangkan web portofolio ini untuk menunjukkan kreativitas dan kemampuan saya dalam desain dan pengembangan.</p>
+              </figcaption>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Beranda-->
+
+
+
+      <!-- awal tentang saya-->
+      <section id="TentangSaya">
+        <div class="jumbotron">
+          <div class="container-fluid">
+            <div class="row justify-content-around">
+              <div class="col">
+              <h1 class="text-ungu2 pb-1"> Tentang saya</h1>
+              <hr class="w-75 mb-5">
+              </div>
+            </div> 
+              <div class="row pb-5">
+                <div class="col-sm-8 col-md-9 offset-sm-1 alert custom-alert" role="alert">Saya seorang profesional yang berkomitmen dan bercita-cita tinggi di bidang teknologi, dengan hasrat untuk terus berkembang dan memberikan kontribusi positif. Seorang lulusan Teknik Komputer dengan pemahaman yang cukup kuat dalam aspek-aspek teknis dan pengembangan perangkat lunak khususnya <strong> Html, Css, JavaScript, Java, Mysql.</strong> saya individu yang berkomitmen untuk pertumbuhan dan pembelajaran yang berkelanjutan. 
+                </div>
+
+              </div>
+              <div class="row">
+              <div class="col-sm-9  col-md-9  offset-sm-2 alert custom-alert " role="alert">Tujuan saya adalah untuk mengembangkan karier saya dalam pengembangan perangkat lunak, serta memberikan kontribusi yang positif pada tim dan menjadi aset berharga untuk perusahaan yang saya pilih. Saya percaya bahwa dengan konsistensi dalam belajar dan beradaptasi dengan perkembangan industri, saya akan menjadi profesional yang berkualitas dan dapat memberikan dampak yang signifikan.</div>
+              </div>
+
+              </div>
+              </div>
+              </div> 
+      </section>
+      <!-- awal tentang saya-->
+
+
+      <!-- Awal Portofolio -->
+
+
+      <section id="portofolio">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col">
+              <h1 class="text-ungu2 pb-1"> Portofolio saya</h1>
+              <hr class="w-75">
+            </div>
+          </div>
+      
+          <div class="row align-items-center">
+            <div class="col-md-6 mb-4">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner rounded">
+                  <div class="carousel-item active">
+                    <img src="img/aselamatDatang.jpg" class="d-block w-100" alt="Gambar 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/bselamatDatang.jpg" class="d-block w-100" alt="Gambar 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/cmenuLogin.jpg" class="d-block w-100" alt="Gambar 3">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/dmenupresensi.jpg" class="d-block w-100" alt="Gambar 4">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/emenucuti.jpg" class="d-block w-100" alt="Gambar 5">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/fformcuti.jpg" class="d-block w-100" alt="Gambar 6">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/gmenudatakaryawan.jpg" class="d-block w-100" alt="Gambar 7">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/habout.jpg" class="d-block w-100" alt="Gambar 8">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/ilaporandatakaryawan.jpg" class="d-block w-100" alt="Gambar 9">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/jlaporandatapresensi.jpg" class="d-block w-100" alt="Gambar 10">
+                  </div>
+
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="bi bi-caret-left-fill" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="bi bi-caret-right-fill" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+
+                
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 3"></button>
+                </div>
+              
+
+              
+
+              </div>
+            </div> 
+
+
+            <div class="col-md-6">
+
+              <div class="accordion accordion-flush " id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed btn btn-outline-ungu" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <span><i class="bi bi-filetype-java"></i></span>Latar Belakang Pembuatan Aplikasi
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-ungu2 text-white">
+                      <p class="lead">Aplikasi ini dibangun untuk memudahkan manajemen karyawan dengan menggunakan Java, MySQL, dan NetBeans</p>
+                      <ul>
+                        <li><strong>Tujuan Aplikasi:</strong> Aplikasi ini bertujuan untuk menyediakan sistem manajemen karyawan yang efisien dengan fitur-fitur seperti presensi dan pengelolaan cuti.</li>
+                        <li><strong>Teknologi yang Digunakan:</strong> Aplikasi ini dibangun menggunakan Java sebagai bahasa pemrograman utama, MySQL sebagai basis data untuk menyimpan informasi karyawan, dan NetBeans sebagai IDE untuk pengembangan.</li>
+                        <li><strong>Manfaat Aplikasi:</strong> Dengan aplikasi ini, pengelolaan kehadiran karyawan menjadi lebih mudah dan efisien, memungkinkan HRD untuk melacak presensi dan mengelola permintaan cuti dengan cepat dan akurat.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed btn btn-outline-ungu" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <span><i class="bi bi-filetype-java"></i></span> Tujuan Pembuatan Aplikasi
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-ungu2 text-white">
+                      <p class="text-end">
+                      <p class="lead">Aplikasi ini memiliki tujuan sebagai berikut:</p>
+                      <ul>
+                        <li>Mengelola kehadiran karyawan dengan mudah dan akurat.</li>
+                        <li>Mengoptimalkan proses pengajuan cuti karyawan.</li>
+                        <li>Memudahkan HRD dalam melacak dan mengelola data karyawan.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed btn btn-outline-ungu" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <span><i class="bi bi-filetype-java"></i></span> Tentang Aplikasi Saya
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body bg-ungu2 text-white">
+                      <p class="lead"> Aplikasi ini merupakan solusi cukup lengkap untuk manajemen karyawan. Fitur utamanya meliputi:</p>
+                        <ul>
+                         <li>Sistem presensi yang terintegrasi</li>
+                         <li>Pengajuan cuti yang mudah dan cepat</li>
+                         <li>Pengelolaan data karyawan yang terpusat</li>
+                         <li>Laporan dan analisis data yang akurat</li>
+                        </ul>
+                    <p> Dengan aplikasi ini, manajemen karyawan menjadi lebih efisien dan terorganisir.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Akhir Portofolio-->
+
+    <!-- CONTOH KONTAK LAINNYA-->
+
+    <section class="vh-100" id="kontak">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h1 class=" text-ungu2 pb-1"> Kontak Saya</h1>
+            <hr class="w-75 mb-5">
+          </div>
+        </div>
+        <div class="row g-4 align-items-center ms-lg-5">
+          <div class="col-md">
+            <ul class="list-group list-group-flush lead custom-border">
+              <li class="list-group-item"> <i class="bi bi-geo-alt-fill fs-2 mb-3"></i> <span class="fw-bold"> Lokasi :</span>
+                JL. Moh Kahfi II, Gang Jambu Rt.001 Rw.008 No.58, Srengseng Sawah, Jagakarsa, Jakarta-Selatan, Dki Jakarta</li>
+
+
+                
+              <li class="list-group-item"> <i class="bi bi-telephone-fill fs-2 mb-3"></i> <span class="fw-bold"> Telepon Seluler :</span>
+                (+62) 896-3639-3547</li>
+              <li class="list-group-item"> <i class="bi bi-envelope-fill fs-2 mb-3"></i> <span class="fw-bold"> E-mail :</span>
+                Panuchi28@gmail.com </li>
+              <li class="list-group-item"> <i class="bi bi-linkedin fs-2 mb-3"></i> <span class="fw-bold">Linkedin :</span>
+                Agil Panuchi </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <img src="img/kontak.svg" alt="gambar kontak" class="img-fluid d-none d-md-block">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--AKHIR KONTAK LAINNYA-->
+    <canvas></canvas>
+
+  </main>
+
+      <!-- Akhir Kontak Saya-->
+
+      <!-- Awal Footer-->
+      <section id="footer">
+        <footer class="bg-ungu pt-lg-3 pt-sm-1">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-12">
+                  <p class="text-center"> " You Will Never Know Your Potential untill You Try" - Agil Panuchi</p>
+                  <hr>
+                </div>
+              </div>
+                <div class="row">
+                    <div class="col-md-6 d-flex justify-content-md-start  justify-content-sm-center">
+                        <p> &copy; 2024 AgilPanuchi. Seluruh hak cipta dilindungi. <br> <span id="timeDisplay"></span></p>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-md-end  justify-content-sm-center align-items-center">
+                        <div class="social-icons">
+                            <a href="mailto:Panuchi28@gmail.com" class="icon"><i class="bi bi-envelope-fill"></i></a>
+                            <a href="https://id.linkedin.com/in/agil-panuchi-72a77928b" class="icon"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://www.google.com/maps?q=-6.349889,106.813278" class="icon"><i class="bi bi-geo-alt-fill"></i></a>
+                            <a href="https://wa.me/6289636393547" class="icon"><i class="bi bi-whatsapp"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    
+
+      <!-- Akhir Footer-->
+
+     
+
+
+   <!-- Option 1: Bootstrap Bundle with Popper -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+   <!-- Javascript Saya -->
+   <script src="script.js"></script>
+  </body>
+</html>
